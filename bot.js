@@ -69,7 +69,7 @@ client.on('message', message => {
 
 if (command == "تحدث") {
 let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
-if (!rank) return message.reply(' ')
+if (!rank) return message.reply('#credit @Omar Alzhrani#7191 1000 ')
   message.channel.send(args.join("  "))
     message.delete();
   }
@@ -83,13 +83,13 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === prefix+'مبلغ'){
-        message.channel.send('#credits')
+        message.channel.send('$credits')
     }
 });
 
 client2.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send('#rep <@286088294234718209>')
+        message.channel.send('#rep <@552647908478943243>')
     }
 });
 
