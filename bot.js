@@ -32,7 +32,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'مبلغ'){
-        message.channel.send('$credits')
+        message.channel.send('#credits')
     }
 });
 
@@ -83,7 +83,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === prefix+'مبلغ'){
-        message.channel.send('$credits')
+        message.channel.send('#credits')
     }
 });
 
